@@ -96,7 +96,7 @@ def check_availability():
 
             # استخدم get لتجنب الخطأ إذا لم تكن الخاصية موجودة
 
-            availability = product.find('div', class_='stock available')
+            availability = product.find('div', class_='stock unavailable')
 
             is_available = availability is None
             product_statuses[name] = {
