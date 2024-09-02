@@ -92,7 +92,7 @@ def send_product_data_to_telegram():
             if product_status == "متوفر" and product_name not in excluded_products:
                 current_time = time.time()
                 if product_name in special_products:
-                    if (product_name not in sent_products) or (current_time - product_send_times.get(product_name, 0) >= (300)):
+                    if (product_name not in sent_products) or (current_time - product_send_times.get(product_name, 0) >= (30)):
                         message_text = f"✅ ** المنتج متاح ** ✅: {product_name}"
                         reply_markup = {
                             "inline_keyboard": [
