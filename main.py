@@ -8,7 +8,7 @@ sent_products = []
 # Dictionary to store the time each product was last sent
 product_send_times = {}
 # List of products that have special handling
-special_products = ["بيربل مست", "هايلاند بيريز", "سبايسي زيست"]
+special_products = ["بيربل مست", "هايلاند بيريز", "سبايسي زيست","تمرة"]
 # List of products to exclude from sending
 excluded_products = []
 # Variable to store the time of the last clearing of the sent_products list
