@@ -82,7 +82,7 @@ def send_product_data_to_telegram():
                         reply_markup = {
                             "inline_keyboard": [
                                 [{"text": "🔍 عرض المنتج", "url": product_url}, {"text": "🛒 عرض السلة", "url": "https://www.dzrt.com/ar/checkout/cart"}],
-                                [{"text": "🔐 تسجيل الدخول", "url": "https://www.dzrt.com/ar/customer/account/login/"}, {"text": "💳 الانتقال إلى رابط الدفع النهائي", "url": "https://www.dzrt.com/ar/onestepcheckout.html"}]
+                                [{"text": "🔐 تسجيل الدخول", "url": "https://www.dzrt.com/ar-sa/login"}, {"text": "💳 الانتقال إلى رابط الدفع النهائي", "url": "https://www.dzrt.com/ar-sa/checkout"}]
                             ]
                         }
                         if os.path.exists(image_file_path):
